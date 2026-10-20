@@ -50,7 +50,7 @@ module cv32e40p_load_store_unit #(
     input logic        data_load_event_ex_i,  // load event                        -> from ex stage
     input logic [ 1:0] data_sign_ext_ex_i,  // sign extension                    -> from ex stage
 
-    output logic [31:0] data_rdata_ex_o,  // requested data                      -> to ex stage
+    output logic [31:0] data_rdata_ex_o,  // requested data                    -> to ex stage
     input  logic        data_req_ex_i,  // data request                      -> from ex stage
     input  logic [31:0] operand_a_ex_i,  // operand a from RF for address     -> from ex stage
     input  logic [31:0] operand_b_ex_i,  // operand b from RF for address     -> from ex stage
